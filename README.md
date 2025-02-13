@@ -9,7 +9,8 @@ PersonaProfiler is an advanced AI-powered tool designed to extract personality t
 - **Scalable Design**: Capable of analyzing 200K+ records while maintaining performance efficiency.
 
 ## Dataset
-This project uses the *Game of Thrones Script (All Seasons)* dataset from Kaggle. The dataset contains dialogues from all seasons of the series and serves as the foundation for personality analysis.
+This project uses the *Game of Thrones Script (All Seasons)* dataset from Kaggle - **[https://www.kaggle.com/datasets/albenft/game-of-thrones-script-all-seasons](#)**.
+The dataset contains dialogues from all seasons of the series and serves as the foundation for personality analysis.
 
 ## Technologies Used
 - **Programming Languages**: Python
@@ -18,16 +19,28 @@ This project uses the *Game of Thrones Script (All Seasons)* dataset from Kaggle
   - Pandas
   - Torch
   - Scipy
+  - Flask *(for backend API & web interface)*
+- **Deployment**:
+  - **Render** *(used for deploying the Flask app)*
 - **Models**: Sentiment Analysis and Zero-Shot Classification from Hugging Face
 
 ## How It Works
-1. **Data Processing**: Cleans and preprocesses dialogue data from the dataset.
-2. **Trait Extraction**:
-   - *Humor*: Analyzes sentiment and identifies humorous keywords.
-   - *Empathy*: Counts occurrences of empathy-related keywords.
-   - *Other Traits*: Leverages zero-shot classification to determine quirkiness, ambition, and romanticism.
+1. **Data Processing**: Cleaned and preprocessed dialogue data from the dataset. Kept only the character name and the corresponding dialogues in all the eight seasons.
+2. **Trait Extraction**: Leverages zero-shot classification and extracted below personality traits.
+   - *Ambition*
+   - *Loyalty*
+   - *Courage*
+   - *Manipulativeness*
 3. **Normalization**: Normalizes trait scores for accurate comparison across characters.
-4. **Personality Matching**: Matches user traits with character profiles using cosine similarity.
+4. **Personality Matching**: Matches user traits with character profiles using cosine similarity. Each personality trait have five questions assigned with scores for each option. Normalized the user responses as well for correct character matching.
+
+## Deployment
+The **PersonaProfiler** application is deployed on **Render** using Flask.  
+- Visit the live application: **[https://game-of-thrones-personality-test.onrender.com/](#)**
+
+## Debugging Tools Used  
+During development and debugging, the following AI tools were used:  
+- **GPT-4**, **DeepSeek**, and **Claude** for troubleshooting and improving model accuracy.
 
 ## Results
 
@@ -35,12 +48,10 @@ This project uses the *Game of Thrones Script (All Seasons)* dataset from Kaggle
 - Normalized profiles ensure consistent and comparable trait scores.
 - User personality inputs are matched with the closest character profile.
 
-
 ### Dialogue Proportion by Characters
 Below is a pie chart illustrating the proportion of dialogues by different characters in the dataset:
 
 ![Dialogue Proportion](results/got_pie_dialogue_count.png)
-
 
 ### Accuracy Comparison with Character Profiles
 The following images compare user personality inputs with iconic Game of Thrones characters to demonstrate accuracy:
@@ -57,10 +68,9 @@ The following images compare user personality inputs with iconic Game of Thrones
 
     ![Cercie vs Jaime](results/charts/got_radar_cercie_jaime.jpg)
 
-For more comparisions visit: https://got-character-comparision.netlify.app/
+For more comparisons, visit: https://got-character-comparision.netlify.app/
 
 These visualizations highlight how closely user traits align with specific character profiles.
 
 ## Contributing
 Contributions are welcome! Feel free to fork this repository and submit pull requests with enhancements or fixes.
-
