@@ -3,7 +3,7 @@
 PersonaProfiler is an advanced AI-powered tool designed to extract personality traits from character dialogues and match user personalities with iconic characters. Using state-of-the-art Natural Language Processing (NLP) models, the project offers seamless character analysis and personality mapping.
 
 ## Features
-- **Dialogue Analysis**: Extract personality traits like humor, empathy, ambition, quirkiness, and romanticism from large datasets.
+- **Dialogue Analysis**: Extract personality traits like Ambition, Loyalty, Courage and Manipulativeness from large datasets.
 - **Batch Processing**: Efficient handling of large datasets using optimized sentiment analysis and zero-shot classification pipelines.
 - **Personality Matching**: Compare user inputs to character profiles to find the closest personality match.
 - **Scalable Design**: Capable of analyzing 200K+ records while maintaining performance efficiency.
