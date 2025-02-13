@@ -137,5 +137,10 @@ def submit():
         app.logger.error(f"Error processing submission: {str(e)}")
         return jsonify({'error': 'Internal server error'}), 500
 
+#if __name__ == '__main__':
+#    app.run(debug=True)
+
+# render deployment
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=10000)  # Use Render's default port
+
