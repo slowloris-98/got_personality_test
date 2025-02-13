@@ -9,10 +9,10 @@ import plotly.express as px
 app = Flask(__name__)
 
 # Load questions and character data
-with open("got_personality_app\quiz\got_quiz.json", "r") as f:
+with open("quiz\got_quiz.json", "r") as f:
     questions_data = json.load(f)
 
-with open("got_personality_app\character_profile\got_char_profiles_norm.json", "r") as f:
+with open("character_profile\got_char_profiles_norm.json", "r") as f:
     character_data = json.load(f)
 
 # Initialize question mapping
@@ -137,10 +137,10 @@ def submit():
         app.logger.error(f"Error processing submission: {str(e)}")
         return jsonify({'error': 'Internal server error'}), 500
 
-#if __name__ == '__main__':
-#    app.run(debug=True)
+if __name__ == '__main__':
+    app.run(debug=True)
 
 # render deployment
-if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=10000)  # Use Render's default port
+#if __name__ == '__main__':
+#    app.run(host="0.0.0.0", port=10000)  # Use Render's default port
 

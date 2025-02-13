@@ -47,15 +47,15 @@ The following images compare user personality inputs with iconic Game of Thrones
 
 1. Cercei vs Danaerys
    
-     ![Cercie vs Danaerys](got_personality_app/results/charts/got_radar_cercie_danaerys.jpg)
+     ![Cercie vs Danaerys](results/charts/got_radar_cercie_danaerys.jpg)
 
 3. Arya vs Jon
    
-     ![Arya vs Jon](got_personality_app/results/charts/got_radar_arya_jon.jpg)
+     ![Arya vs Jon](results/charts/got_radar_arya_jon.jpg)
 
 4. Cercei vs Jaime
 
-    ![Cercie vs Jaime](got_personality_app/results/charts/got_radar_cercie_jaime.jpg)
+    ![Cercie vs Jaime](results/charts/got_radar_cercie_jaime.jpg)
 
 For more comparisions visit: https://got-character-comparision.netlify.app/
 
