@@ -1,0 +1,130 @@
+{
+    "loyalty": {
+        "If someone you loved was in danger, would you break a solemn promise to protect them?": {
+            "Never, even if it meant risking everything.": 1,
+            "Only in extreme situations like life or death.": 0.5,
+            "Yes, if I felt it was justified.": 0.25,
+            "Promises are made to be broken.": 0
+        },
+        "How much does keeping your word matter to you?": {
+            "It's everything. My word is my bond.": 1,
+            "It's important, but not above all else.": 0.75,
+            "It depends on the situation.": 0.5,
+            "People should do what's best for themselves.": 0.25
+        },
+        "If revealing a secret could protect you but hurt a close friend, what would you do?": {
+            "I'd stay silent, no matter the cost.": 1,
+            "I'd try to find a solution that helps both of us.": 0.75,
+            "I'd probably reveal it if I had no other option.": 0.25,
+            "I'd reveal it — survival comes first.": 0
+        },
+        "What’s your opinion of people who go back on their commitments?": {
+            "They can't be trusted.": 1,
+            "It depends on the reason.": 0.75,
+            "Sometimes it’s understandable.": 0.5,
+            "Oaths don’t mean much these days.": 0
+        },
+        "Would you give up something deeply important to you for the well-being of your family?": {
+            "Absolutely, without hesitation.": 1,
+            "Probably, but I’d struggle with the choice.": 0.75,
+            "Only if there’s no other way.": 0.5,
+            "No, I have to look after myself first.": 0
+        }
+    },
+    "ambition": {
+        "What drives you the most in life?": {
+            "Achieving great personal success.": 1,
+            "Making a meaningful impact.": 0.75,
+            "Living a balanced, peaceful life.": 0.5,
+            "Enjoying the moment and having fun.": 0.25
+        },
+        "How central is personal success to your sense of purpose?": {
+            "It's the main thing I strive for.": 1,
+            "It's very important, but not everything.": 0.75,
+            "I’m happy with modest accomplishments.": 0.25,
+            "I don’t focus much on success.": 0
+        },
+        "When it comes to your goals, how do you feel about taking risks?": {
+            "I’m all in — risks are necessary.": 1,
+            "I’ll take smart, calculated risks.": 0.75,
+            "Only if the odds are really in my favor.": 0.5,
+            "I avoid taking chances.": 0
+        },
+        "How do you respond to competitive environments?": {
+            "I thrive — I always aim to win.": 1,
+            "I compete if it’s necessary.": 0.75,
+            "I prefer collaboration over competition.": 0.25,
+            "I don’t care about winning or losing.": 0
+        },
+        "Do you believe success should be equally achievable for everyone?": {
+            "Absolutely, everyone deserves a fair shot.": 1,
+            "Mostly, though natural talent plays a role.": 0.75,
+            "Some people just aren’t meant to succeed.": 0.25,
+            "It’s not something I think much about.": 0
+        }
+    },
+    "manipulativeness": {
+        "How often do you try to guide or shape others' opinions?": {
+            "Rarely — I prefer honesty over persuasion.": 0,
+            "Sometimes, depending on what’s at stake.": 0.5,
+            "I like persuading others to see things my way.": 1,
+            "Only if I think it’s harmless.": 0.25
+        },
+        "Would you use charm or compliments to get what you want?": {
+            "No — it feels disingenuous.": 0,
+            "Occasionally, if the situation calls for it.": 0.25,
+            "Sure, if it helps things go smoothly.": 0.75,
+            "Absolutely — I know how to work a room.": 1
+        },
+        "Do you observe people carefully to find ways to influence them?": {
+            "No, I respect people's boundaries.": 0,
+            "Only when I feel it's necessary.": 0.25,
+            "Yes, it's a skill I take pride in.": 1,
+            "I try, but I’m not very good at it.": 0.25
+        },
+        "How important is it for you to manage how others see you?": {
+            "Not important — I am who I am.": 0,
+            "Somewhat — I want to be understood.": 0.5,
+            "Very — reputation is everything.": 1,
+            "I try not to worry about others’ opinions.": 0.25
+        },
+        "Would you bend the truth to protect yourself or gain an advantage?": {
+            "No — I’d rather face the consequences.": 0,
+            "Maybe, if it was serious.": 0.5,
+            "Yes, if it meant staying safe.": 1,
+            "Of course — survival first.": 1
+        }
+    },
+    "courage": {
+        "What’s your typical reaction when facing danger or threats?": {
+            "I confront the situation head-on.": 1,
+            "I stay calm and think it through.": 0.75,
+            "I try to quietly avoid it.": 0.25,
+            "I panic and shut down.": 0
+        },
+        "If you witnessed someone being bullied, how would you react?": {
+            "Step in immediately and defend them.": 1,
+            "Help if I can do it safely.": 0.75,
+            "I’d hesitate and maybe avoid it.": 0.25,
+            "I’d stay out of it.": 0
+        },
+        "How do you feel about stepping into uncertain or risky situations?": {
+            "I go for it — risk makes life exciting.": 1,
+            "I'll take the leap if the reward is worth it.": 0.75,
+            "Only when I feel really safe.": 0.25,
+            "I try to avoid all risk.": 0
+        },
+        "Do you admire people who stand tall after facing major hardships?": {
+            "Absolutely — they inspire me.": 1,
+            "Yes, though I wouldn’t want that hardship myself.": 0.75,
+            "It’s just part of life.": 0.25,
+            "Not particularly — everyone struggles.": 0
+        },
+        "How would you honestly assess your own bravery?": {
+            "I’m very courageous.": 1,
+            "I’m fairly brave but have limits.": 0.75,
+            "I try, but I get scared easily.": 0.25,
+            "I avoid confrontation whenever I can.": 0
+        }
+    }
+}

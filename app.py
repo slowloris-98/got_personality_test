@@ -13,7 +13,7 @@ app = Flask(__name__)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # Load questions and character data using absolute paths
-with open(os.path.join(BASE_DIR, "quiz", "got_quiz.json"), "r") as f:
+with open(os.path.join(BASE_DIR, "quiz", "got_quiz_v2.json"), "r") as f:
     questions_data = json.load(f)
 
 with open(os.path.join(BASE_DIR, "character_profile", "got_char_profiles_norm.json"), "r") as f:
